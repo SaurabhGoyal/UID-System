@@ -1,0 +1,39 @@
+<html>
+<head>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/mystyle.css">
+</head>
+<body class="paddedClass main">
+	<form class="form-inline" role="form" action='signin.jsp'>
+		<div class="form-group">
+			<div class="input-group">
+				<select name="usertype" class="form-control">
+					<option value="Admin">Admin</option>
+					<option value="Passport seva staff">Passport seva staff</option>
+					<option value="Citizen" selected="selected">Citizen</option>
+					<option value="RTO">RTO</option>
+					<option value="CrimeDept">Crime Dept</option>
+					<option value="AAI">AAI</option>
+				</select>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="sr-only" for="loginid">loginid</label> <input
+				type="text" class="form-control" id="loginid" name="loginid"
+				placeholder="User-Id">
+		</div>
+		<div class="form-group">
+			<label class="sr-only" for="pwd">Password</label> <input
+				type="password" class="form-control" id="pwd" name="pwd"
+				placeholder="Password">
+		</div>
+		<div class="checkbox">
+			<label> <input type="checkbox"> Remember me
+			</label>
+		</div>
+		<button type="submit" class="btn btn-primary">Sign in</button>
+		<button type="reset" class="btn btn-default">Reset</button>
+	</form>
+	<b>Registration :</b> <a href='citizenregister1.htm' target='main'>Citizens here</a> 
+	(Others contact admin for registration)
+</html>

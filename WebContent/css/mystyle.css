@@ -1,0 +1,31 @@
+@CHARSET "ISO-8859-1";
+
+.paddedClass {
+	margin-top: 10;
+	margin-left: 25;
+	margin-right: 25;
+	background-color: #FAFAFA;
+	color: #212121;
+}
+
+.top{
+	background-color: #0097A7;
+	color: #E4F3F5;
+}
+
+.top a:LINK{
+	
+	color: #E4F3F5;
+	text-decoration: none;
+}
+.btn-primary {
+	background-color: #0097A7;
+	color: #E4F3F5;
+	border-color: #357ebd
+}
+
+.middle {
+  position: relative;
+  top: 30%;
+  transform: translateY(-30%);
+}

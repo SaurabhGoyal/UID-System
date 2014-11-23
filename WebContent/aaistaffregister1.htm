@@ -1,0 +1,41 @@
+<html>
+<head>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/mystyle.css">
+</head>
+<body class="paddedClass">
+	<legend>
+		<h4>AAI STAFF REGISTRATION</h4>
+	</legend>
+	
+	<form class="form-horizontal" role="form" method=post action='aaistaffregister2.jsp'>
+		<div class="form-group">
+			<label for="aaistaffname" class="col-sm-2 control-label">AAI Staff Name</label>
+			<div class="col-sm-8">
+				<input type="text" class="form-control" id="aaistaffname" name="aaistaffname"
+					placeholder="Staff Name">
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="location" class="col-sm-2 control-label">Location</label>
+			<div class="col-sm-8">
+				<input type="text" class="form-control" id="location"
+					name="location" placeholder="Location">
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="pwd" class="col-sm-2 control-label">Password</label>
+			<div class="col-sm-8">
+				<input type="password" class="form-control" id="pwd"
+					name="pwd" placeholder="6-14 characters">
+			</div>
+		</div>
+		<div class="form-group">
+			<div class="col-sm-offset-2 col-sm-8">
+				<button type="submit" class="btn btn-primary">Register</button>
+				<button type="reset" class="btn btn-default">Reset</button>
+			</div>
+		</div>
+	</form>
+</body>
+</html>
