@@ -1,9 +1,14 @@
 <%@ page import="java.util.Date,java.sql.*"%>
-
 <html>
 <head>
 <link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrapValidator.min.css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
 <link rel="stylesheet" href="css/mystyle.css">
+<script type="text/javascript" src="scripts/jquery.min.js" ></script>
+<script type="text/javascript" src="scripts/bootstrap.min.js" ></script>
+<script type="text/javascript" src="scripts/bootstrapValidator.min.js" ></script>
+<script type="text/javascript" src="scripts/myscript.js"></script>
 </head>
 <body class="paddedClass">
 	<%
@@ -34,7 +39,7 @@
 	<legend>
 		<h4>CITIZEN VERIFICATION</h4>
 	</legend>
-	<form class="form-horizontal" role="form" method=post
+	<form id="myForm" class="form-horizontal" role="form" method=post
 		action='processcitizen3.jsp'>
 		<div class="form-group">
 			<label for="applicationno" class="col-sm-2 control-label">Application

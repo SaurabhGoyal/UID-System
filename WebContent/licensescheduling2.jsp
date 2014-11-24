@@ -2,7 +2,13 @@
 <html>
 <head>
 <link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrapValidator.min.css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
 <link rel="stylesheet" href="css/mystyle.css">
+<script type="text/javascript" src="scripts/jquery.min.js" ></script>
+<script type="text/javascript" src="scripts/bootstrap.min.js" ></script>
+<script type="text/javascript" src="scripts/bootstrapValidator.min.js" ></script>
+<script type="text/javascript" src="scripts/myscript.js"></script>
 </head>
 <body class="paddedClass">
 	<h4>License Scheduling</h4>
@@ -26,7 +32,7 @@
 	<legend>
 		<h4>Citizen Profile</h4>
 	</legend>
-	<form class="form-horizontal" role="form" method=post
+	<form id="myForm" class="form-horizontal" role="form" method=post
 		action='licensescheduling3.jsp'>
 		<div class="form-group">
 			<label for="uid" class="col-sm-2 control-label">UID</label>
@@ -133,14 +139,14 @@
 			<label for="date" class="col-sm-2 control-label">Reporting Date</label>
 			<div class="col-sm-8">
 				<input type="text" class="form-control" id="date"
-					name="date" placeholder="Reporting Date">
+					name="date" placeholder="Reporting Date (DD/MM/YYYY)">
 			</div>
 		</div>
 		<div class="form-group">
 			<label for="time" class="col-sm-2 control-label">Reporting Time</label>
 			<div class="col-sm-8">
 				<input type="text" class="form-control" id="time"
-					name="time" placeholder="Reporting Time">
+					name="time" placeholder="Reporting Time (HH:MM)">
 			</div>
 		</div>
 		<div class="form-group">

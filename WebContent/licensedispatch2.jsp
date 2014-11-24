@@ -2,7 +2,13 @@
 <html>
 <head>
 <link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrapValidator.min.css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
 <link rel="stylesheet" href="css/mystyle.css">
+<script type="text/javascript" src="scripts/jquery.min.js" ></script>
+<script type="text/javascript" src="scripts/bootstrap.min.js" ></script>
+<script type="text/javascript" src="scripts/bootstrapValidator.min.js" ></script>
+<script type="text/javascript" src="scripts/myscript.js"></script>
 </head>
 <body class="paddedClass">
 <h4>License Dispatch</h4><hr>
@@ -25,13 +31,13 @@
 		uid = request.getParameter("uid");
 		rs = stmt.executeQuery("select vehicletype from licensetable where uid="+ uid + " and status='Accept'");
 	%>
-	<form class="form-horizontal" role="form" method=post
+	<form id="myForm" class="form-horizontal" role="form" method=post
 		action='licensedispatch3.jsp'>
 		<div class="form-group">
 			<label for="uid" class="col-sm-2 control-label">Citizen ID</label>
 			<div class="col-sm-8">
 				<input type="text" class="form-control" id="uid" name="uid"
-					value="<%=uid%>">
+					value="<%=uid%>" readonly="readonly">
 			</div>
 		</div>
 		<div class="form-group">

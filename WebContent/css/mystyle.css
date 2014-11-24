@@ -1,9 +1,9 @@
 @CHARSET "ISO-8859-1";
 
 .paddedClass {
-	margin-top: 10;
-	margin-left: 25;
-	margin-right: 25;
+	margin-top: 20;
+	margin-left: 60;
+	margin-right: 60;
 	background-color: #FAFAFA;
 	color: #212121;
 }

@@ -2,7 +2,13 @@
 <html>
 <head>
 <link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrapValidator.min.css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
 <link rel="stylesheet" href="css/mystyle.css">
+<script type="text/javascript" src="scripts/jquery.min.js" ></script>
+<script type="text/javascript" src="scripts/bootstrap.min.js" ></script>
+<script type="text/javascript" src="scripts/bootstrapValidator.min.js" ></script>
+<script type="text/javascript" src="scripts/myscript.js"></script>
 </head>
 <body class="paddedClass">
 	<legend>
