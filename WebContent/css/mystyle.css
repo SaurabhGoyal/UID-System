@@ -24,6 +24,11 @@
 	border-color: #357ebd
 }
 
+.navbar-default .navbar-brand {
+	color: #0097A7;
+	text-decoration: underline;
+}
+
 .middle {
   position: relative;
   top: 30%;
