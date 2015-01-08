@@ -31,8 +31,8 @@
 		Class.forName("com.mysql.jdbc.Driver");
 		con = DriverManager.getConnection("jdbc:mysql://localhost:3306/uiddb","root","");
 		stmt = con.createStatement();
-		if (transitstatus.equals("Not-allowed")) {
-			stmt.executeUpdate("insert into transittable values(" + uid+ ",'Not-allowed','" +formattedDate + "')");
+		if (transitstatus.equals("Not-Allowed")) {
+			stmt.executeUpdate("insert into transittable values(" + uid+ ",'Not-Allowed','" +formattedDate + "')");
 			out.println("Transit Status for <font color=red> " + uid+ "<font color=black> Set");
 		} else {
 			stmt.executeUpdate("delete from transittable where uid=" + uid);

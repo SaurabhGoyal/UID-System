@@ -21,7 +21,7 @@
 				type</label>
 			<div class="radio col-sm-8">
 				<label> <input type="radio" name="controltype" id="CD"
-					value="Crime Dept" checked>Crime Dept
+					value="CD" checked>Crime Dept
 				</label> <label> <input type="radio" name="controltype" id="RTA"
 					value="RTA">RTA
 				</label>
